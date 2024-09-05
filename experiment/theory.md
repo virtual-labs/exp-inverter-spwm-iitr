@@ -1,4 +1,12 @@
 
+<head>
+
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> 
+  
+</script>
+
+</head>
+
 <div style="font-family: 'Nunito Sans', sans-serif; font-size: 20px;text-align: justify;">
 
 ### **Introduction**
@@ -46,17 +54,16 @@ The switches will remain ON until Vra(t) < Vcarr(t) during the negative half-cyc
 The same process is applied to the other phases, with switches S2, S5, S3, and S6 for phases B and C,
 respectively.<br>
 
-          
-
+        
 <center> <img src="images\Fig 2.png " style="mix-blend-mode: darken; -webkit-filter:contrast(110%);" height="700" width="600"></center>
-<center><b style="font-size: 18px; ;">Fig. 2 Three Phase VSI output voltage waveform</b></center><br>
+<center><b style="font-size: 18px;">Fig. 2 Three Phase VSI output voltage waveform</b></center><br>
 
 In this PWM based on comparison with the triangular wave, if the ratio of carrier frequency to fundamental
 frequency is large enough (greater than 21), then the fundamental component of the output voltage varies linearly with the reference voltage v<sub>ref</sub> for a constant DC-link voltage as<br>
 
 <center>
 
-$v_{o1} = v_{ref} \; sin \; w t..........(1)$ 
+$$v_{o1} = v_{ref}sinwt..........(1)$$ 
  
 </center>
 
@@ -64,7 +71,7 @@ The output voltage can be rewritten in terms of the modulation index MI as<br>
 
 <center>
 
-$v_{o1} = \frac {v_{dc}} {2} \;MI \;sin \;wt..........(2)$ 
+$$v_{o1} = \frac {v_{dc}} {2} MI sinwt..........(2)$$ 
  
 </center>
 
@@ -72,7 +79,7 @@ $v_{o1} = \frac {v_{dc}} {2} \;MI \;sin \;wt..........(2)$
 
 <center>
 
-$MI = \frac {V_m}{V_c}..........(3)$ 
+$$MI = \frac {V_{m}}{V_{c}}..........(3)$$ 
  
 </center>
 
@@ -124,6 +131,6 @@ technique, the attainable maximum limit of the linear modulation range is inevit
               
 3. <b>Power Conditioning:</b> SPWM inverters can be used in power conditioning applications to improve power quality by compensating for voltage fluctuations, harmonics, and reactive power.
               
-4. <b>Aerospace and Defense:</b> SPWM inverters are used in aerospace and defense applications, including aircraft power systems and military equipment, where precise control of AC voltage is necessary for avionics and electronics.                        
+4. <b>Aerospace and Defence:</b> SPWM inverters are used in aerospace and defence applications, including aircraft power systems and military equipment, where precise control of AC voltage is necessary for avionics and electronics.                        
 
 </div>
